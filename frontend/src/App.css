@@ -21,6 +21,12 @@
 }
 .appMenu{
     border: none;
+    min-width: 0;
+    flex: auto
+}
+.titleDiv{
+    text-align: center;
+    margin-left: 500px;
 }
 .pageContent{
     display: flex;

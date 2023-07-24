@@ -34,15 +34,9 @@ function AppHeader() {
             key: "seldsfdafdsafdasl",
             children: []
           },
-          {
-            label: 'Apply For Loan',
-            key: "test",
-            children: []
-          },
-
         ]}
       />
-      <Typography.Title>Lucy Dew Properties</Typography.Title>
+      {/* <Typography.Title className="titleDiv">Lucy Dew Properties</Typography.Title> */}
       <AppCart />
     </div>
   );

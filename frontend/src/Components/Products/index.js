@@ -62,7 +62,15 @@ function Products() {
       </div>
       <List
         loading={loading}
-        grid={{ column: 3 }}
+        grid={{
+          gutter: 16,
+          xs: 1,
+          sm: 2,
+          md: 4,
+          lg: 4,
+          xl: 3,
+          xxl: 3,
+        }}
         renderItem={(product, index) => {
           return (
               <Card
